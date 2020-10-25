@@ -22,4 +22,5 @@ if __name__ == "__main__":
     server = tornado.httpserver.HTTPServer(application)
     server.bind(9090)
     server.start()  # Specify number of subprocesses
+    print("Started server on 9090")
     IOLoop.instance().start()

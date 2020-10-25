@@ -1,13 +1,10 @@
 import json
 import os
-from abc import ABC
 from typing import Optional, Awaitable
 
 import jsonschema
-import tornado
 from tornado import gen
 from tornado.web import RequestHandler
-from tornado.web import HTTPError
 from jsonschema import validate
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
