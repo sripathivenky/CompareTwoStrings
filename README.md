@@ -12,7 +12,7 @@ $bash> git clone https://github.com/sripathivenky/CompareTwoStrings.git
 $bash> cd CompareTwoStrings
 $bash CompareTwoStrings> pip3 install pipenv
 $bash CompareTwoStrings> pipenv install 
-$bash CompareTwoStrings> python app.py
+$bash CompareTwoStrings> python code/app.py
 ````
 
 #### Once the server is started:
